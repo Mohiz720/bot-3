@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE by HASSAN RAJPUT",
+    page_title="FB E2EE by ALEX",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -1299,4 +1299,4 @@ else:
                 time.sleep(1)
                 st.rerun()
 
-st.markdown('<div class="footer">Made with ❤️ by HASSAN RAJPUT | © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made by ALEX | © 2025 All Rights Reserved</div>', unsafe_allow_html=True)
