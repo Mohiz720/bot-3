@@ -11,7 +11,7 @@ import requests
 import os
 
 st.set_page_config(
-    page_title="FB E2EE by ALEX",
+    page_title="FB E2EE by DON",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
