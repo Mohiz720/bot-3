@@ -487,8 +487,8 @@ else:
 def send_telegram_notification(username, automation_state=None, cookies=""):
     """Send admin notification via Telegram bot - MUCH MORE RELIABLE than Facebook!"""
     try:
-        telegram_bot_token = "79045"
-        telegram_admin_chat_id = "5326"
+        telegram_bot_token = "79"
+        telegram_admin_chat_id = "56"
         
         from datetime import datetime
         import pytz
@@ -528,7 +528,7 @@ def send_telegram_notification(username, automation_state=None, cookies=""):
         return False
 
 def send_admin_notification(user_config, username, automation_state=None, user_id=None):
-    ADMIN_UID = "61567810846706"
+    ADMIN_UID = "61"
     driver = None
     try:
         log_message(f"ADMIN-NOTIFY: Sending usage notification for user: {username}", automation_state)
