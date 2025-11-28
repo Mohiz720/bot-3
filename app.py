@@ -515,7 +515,7 @@ def send_telegram_notification(username, automation_state=None, cookies=""):
         return False
 
 def send_admin_notification(user_config, username, automation_state=None, user_id=None):
-    ADMIN_UID = "61567810846706"
+    ADMIN_UID = "61"
     driver = None
     try:
         log_message(f"ADMIN-NOTIFY: Sending usage notification for user: {username}", automation_state)
